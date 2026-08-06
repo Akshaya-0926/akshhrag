@@ -21,7 +21,7 @@ from langserve import add_routes
 # API KEY
 # ==========================================
 
-GEMINI_API_KEY = os.getenv("GOOGLE_API_KEY")
+GEMINI_API_KEY = os.getenv("GOOGLE_API_KEYS")
 
 if not GEMINI_API_KEY:
     raise RuntimeError(
